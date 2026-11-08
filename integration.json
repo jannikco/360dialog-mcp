@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "e423c171df1d566b828ede3a9cf191308ce50cf78c31eaf2874d78950e00eed2",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://openapi.gitbook.com/o/-M4UA2Des2wa1sGak_JB/spec/messaging-api-v2.yaml"
+  ],
+  "id": "360dialog-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "360dialog MCP setup and connection checker",
+  "description": "Generate 360dialog MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "360dialog",
+  "appName": "360dialog",
+  "providerDocs": "https://openapi.gitbook.com/o/-M4UA2Des2wa1sGak_JB/spec/messaging-api-v2.yaml",
+  "providerWebsite": "https://www.360dialog.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.360dialog.com/docs/hub/api-key",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-360dialog-mcp"
+}
