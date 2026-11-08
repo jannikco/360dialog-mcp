@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-360dialog",
+      "description": "Connect AI agents to 360dialog using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-360dialog/SKILL.md": "da512a16530f660bde7e6a51f53952f2b5653144dbea0fcae6d12d3746519a06"
+  }
+}
